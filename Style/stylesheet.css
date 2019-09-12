@@ -1,6 +1,6 @@
 /*Formatting the background*/
-body {background:#4E5263; color:white; font-family: 'Roboto', sans-serif
-}
+body {background:#4E5263; color:white; font-family: 'Roboto', sans-serif;}
+
 
 /*Formatted all the headings*/
 	h4 {font-family: 'Arial Bold', sans-serif;
@@ -20,10 +20,16 @@ body {background:#4E5263; color:white; font-family: 'Roboto', sans-serif
 
 /*Reducing the brightness of photos */
 .container {position: relative;
-   opacity: 0.5 }
+   opacity: 0.5; }
    
 /*Text before image an image*/
 .topleft {font-family: 'Roboto';
 	color: white
 	position: absolute ;
 	top: 8 px;}
+	
+/*Created special formatting for the navigation bar with padding*/
+.menubar
+{display: block;
+  padding: 5px
+  margin: 0}
