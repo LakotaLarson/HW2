@@ -29,7 +29,25 @@ body {background:#4E5263; color:white; font-family: 'Roboto', sans-serif;}
 	top: 8 px;}
 	
 /*Created special formatting for the navigation bar with padding*/
-.menubar
-{display: block;
-  padding: 5px
-  margin: 0}
+#home
+{ padding: 10px;
+  align: "middle";}
+#linked
+{ padding: 10px;
+  align: "middle";}
+#git
+{padding: 10px;
+  align: "middle";}
+#resume
+  {padding: 10px;
+  align: "middle";}
+  
+/*Putting padding on images using the box model*/
+#game {margin-top:5px;
+  margin-bottom:5px;
+  margin-right:20px;
+  margin-left:20px}
+#chi {margin-top:5px;
+  margin-bottom:5px;
+  margin-right:10px;
+  margin-left:0px}
